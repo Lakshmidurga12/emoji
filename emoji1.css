@@ -1,0 +1,21 @@
+.face{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(red,aliceblue);
+    margin-left: 700px;
+    margin-top: 200px;
+
+    padding: 10px;
+}
+body{
+    background-image: linear-gradient(aqua,aliceblue,aqua);
+background-attachment: fixed;
+}
+.face:hover{
+    background-image: linear-gradient(white,aliceblue);
+}
+body:hover{
+    background-image:linear-gradient(black,white);
+    background-attachment: fixed;
+}
